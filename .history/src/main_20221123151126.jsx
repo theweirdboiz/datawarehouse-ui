@@ -1,0 +1,12 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import { GlobalStyle } from "./GlobalStyle.js";
+import "./assets/index.scss";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <GlobalStyle></GlobalStyle>
+    <App />
+  </React.StrictMode>
+);
