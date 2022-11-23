@@ -10,7 +10,7 @@ function App() {
     "content__search p-4 flex items-center gap-x-3 flex-1 rounded-xl bg-slate-100";
 
   return (
-    <div className="p-5 mx-auto max-w-7xl">
+    <div className="p-5 mx-auto max-w-5xl">
       <div className="flex justify-between">
         <section className="content max-w-3xl">
           <div className={contentTop}>
@@ -27,7 +27,7 @@ function App() {
               />
             </div>
           </div>
-          <div className="content__detail mb-20">
+          <div className="content__detail">
             <div className="flex items-center justify-between">
               <h4 className="font-semibold">Today overview</h4>
               <div className="">
@@ -89,50 +89,9 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="content__detail mb-20">
-            <div className="flex items-center justify-between">
-              <h4 className="font-semibold">Weather 24h</h4>
-              <div className="">
-                <button className="text-sm font-medium text-[#009EFF]">
-                  24h
-                </button>
-              </div>
-            </div>
-            <div>
-              <div className="content__detail-box grid grid-cols-3 gap-4 mt-6">
-                <div className="content__detail-item p-5 flex items-center gap-x-6 bg-slate-100 rounded-xl">
-                  <i></i>
-                  <div className="speed flex flex-col">
-                    <h4 className="text-[#888]">00:00</h4>
-                    <span className="text-[24px] font-semibold">24 / 24</span>
-                    <span>May cum</span>
-                  </div>
-                  <span className="text-[#888]">96%</span>
-                </div>
-                <div className="content__detail-item p-5 flex items-center gap-x-6 bg-slate-100 rounded-xl">
-                  <i></i>
-                  <div className="speed flex flex-col">
-                    <h4 className="text-[#888]">00:00</h4>
-                    <span className="text-[24px] font-semibold">24 / 24</span>
-                    <span>May cum</span>
-                  </div>
-                  <span className="text-[#888]">96%</span>
-                </div>
-                <div className="content__detail-item p-5 flex items-center gap-x-6 bg-slate-100 rounded-xl">
-                  <i></i>
-                  <div className="speed flex flex-col">
-                    <h4 className="text-[#888]">00:00</h4>
-                    <span className="text-[24px] font-semibold">24 / 24</span>
-                    <span>May cum</span>
-                  </div>
-                  <span className="text-[#888]">96%</span>
-                </div>
-              </div>
-            </div>
-          </div>
         </section>
         <section className="content__right text-white">
-          <div className="bg-slate-600 p-5 h-full">
+          <div className="bg-slate-600 p-5">
             <div className="flex items-center gap-x-12 justify-between mt-2 mb-5 ">
               <div className="flex flex-col">
                 <h3 className="text-lg">Majasem Barat</h3>
@@ -140,63 +99,9 @@ function App() {
               </div>
               <h4>08:54AM</h4>
             </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
+            <div className="mt-16 flex justify-between items-center border-b-[1px] border-[#f8f8f8] pb-6">
               <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
+                <h2 className="text-4xl">20c</h2>
               </div>
               <h3>Dramatic cloudy</h3>
             </div>

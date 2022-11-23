@@ -132,7 +132,7 @@ function App() {
           </div>
         </section>
         <section className="content__right text-white">
-          <div className="bg-slate-600 p-5 h-full">
+          <div className="bg-slate-600 p-5">
             <div className="flex items-center gap-x-12 justify-between mt-2 mb-5 ">
               <div className="flex flex-col">
                 <h3 className="text-lg">Majasem Barat</h3>
@@ -140,63 +140,9 @@ function App() {
               </div>
               <h4>08:54AM</h4>
             </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
+            <div className="mt-16 flex justify-between items-center border-b-[1px] border-[#f8f8f8] pb-6">
               <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
-              </div>
-              <h3>Dramatic cloudy</h3>
-            </div>
-            <div className="mt-1 mb-4 flex justify-between items-center border-b-[1px] border-[#f8f8f8]">
-              <div className="">
-                <h2 className="text-xl">20c</h2>
+                <h2 className="text-4xl">20c</h2>
               </div>
               <h3>Dramatic cloudy</h3>
             </div>
