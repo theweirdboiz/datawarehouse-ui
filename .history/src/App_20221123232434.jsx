@@ -145,9 +145,9 @@ function App() {
           </div>
         </section>
         <section className="content__right text-white min-w-[320px]">
-          <div className="bg-backgroundPrimary p-5 h-full rounded-xl">
-            <div className="flex flex-col gap-x-12 justify-between mt-2 mb-5 ">
-              <div className="flex flex-col">
+          <div className="bg-slate-600 p-5 h-full rounded-xl">
+            <div className="flex flex-col items-center gap-x-12 justify-between mt-2 mb-5 ">
+              <div className="flex flex-col items-start">
                 <h3 className="flex items-baseline">
                   <FontAwesomeIcon icon={faLocationDot} />
                   <span className="ml-2 text-xl ">Binh Duong</span>

@@ -145,8 +145,8 @@ function App() {
           </div>
         </section>
         <section className="content__right text-white min-w-[320px]">
-          <div className="bg-backgroundPrimary p-5 h-full rounded-xl">
-            <div className="flex flex-col gap-x-12 justify-between mt-2 mb-5 ">
+          <div className="bg-slate-600 p-5 h-full rounded-xl">
+            <div className="flex flex-col items-center gap-x-12 justify-between mt-2 mb-5 ">
               <div className="flex flex-col">
                 <h3 className="flex items-baseline">
                   <FontAwesomeIcon icon={faLocationDot} />
@@ -168,11 +168,11 @@ function App() {
                 </div>
               </div>
             </div>
-            <h3 className="font-semibold mb-6">Mây cụm</h3>
+            <span>Mây cụm</span>
             <div className="mt-2 pb-2 flex justify-between items-center border-b-[1px] border-borderGray text-sm">
-              <h2 className="flex items-center w-[150px]">
-                <FontAwesomeIcon className="" icon={faSun} />
-                <span className="w-[120px] ml-auto">Mặt trời mọc / lặn</span>
+              <h2 className="flex items-center  max-w-[160px]">
+                <FontAwesomeIcon className="flex flex-1" icon={faSun} />
+                <span className="w-[120px]">Mặt trời mọc / lặn</span>
               </h2>
               <h3 className="flex gap-x-1">
                 <span>06:11 AM</span>
@@ -181,9 +181,9 @@ function App() {
               </h3>
             </div>
             <div className="mt-2 pb-2 flex justify-between items-center border-b-[1px] border-borderGray text-sm">
-              <h2 className="flex items-center w-[150px]">
+              <h2 className="flex items-center  max-w-[160px]">
                 <FontAwesomeIcon className="" icon={faTemperatureEmpty} />
-                <span className="w-[120px] ml-auto">Thấp / cao</span>
+                <span className="w-[120px]">Thấp / cao</span>
               </h2>
               <h3 className="flex gap-x-1">
                 <span>23°</span>
@@ -192,45 +192,45 @@ function App() {
               </h3>
             </div>
             <div className="mt-2 pb-2 flex justify-between items-center border-b-[1px] border-borderGray text-sm">
-              <h2 className="flex items-center w-[150px]">
+              <h2 className="flex items-center  max-w-[160px]">
                 <FontAwesomeIcon className="" icon={faDroplet} />
-                <span className="w-[120px] ml-auto">Độ ẩm</span>
+                <span className="w-[120px]">Độ ẩm</span>
               </h2>
               <h3 className="flex gap-x-1">
                 <span>23%</span>
               </h3>
             </div>
             <div className="mt-2 pb-2 flex justify-between items-center border-b-[1px] border-borderGray text-sm">
-              <h2 className="flex items-center w-[150px]">
+              <h2 className="flex items-center  max-w-[160px]">
                 <FontAwesomeIcon className="" icon={faEyeSlash} />
-                <span className="w-[120px] ml-auto">Tầm nhìn</span>
+                <span className="w-[120px]">Tầm nhìn</span>
               </h2>
               <h3 className="flex gap-x-1">
                 <span>10 km</span>
               </h3>
             </div>
             <div className="mt-2 pb-2 flex justify-between items-center border-b-[1px] border-borderGray text-sm">
-              <h2 className="flex items-center w-[150px]">
+              <h2 className="flex items-center  max-w-[160px]">
                 <FontAwesomeIcon className="" icon={faWind} />
-                <span className="w-[120px] ml-auto">Gió</span>
+                <span className="w-[120px]">Gió</span>
               </h2>
               <h3 className="flex gap-x-1">
                 <span>2.57 km/giờ</span>
               </h3>
             </div>
             <div className="mt-2 pb-2 flex justify-between items-center border-b-[1px] border-borderGray text-sm">
-              <h2 className="flex items-center w-[150px]">
+              <h2 className="flex items-center  max-w-[160px]">
                 <FontAwesomeIcon className="" icon={faGlassWaterDroplet} />
-                <span className="w-[120px] ml-auto">Điểm ngưng</span>
+                <span className="w-[120px]">Điểm ngưng</span>
               </h2>
               <h3 className="flex gap-x-1">
                 <span>22 °C</span>
               </h3>
             </div>
             <div className="mt-2 pb-2 flex justify-between items-center border-b-[1px] border-borderGray text-sm">
-              <h2 className="flex items-center w-[150px]">
+              <h2 className="flex items-center  max-w-[160px]">
                 <FontAwesomeIcon className="" icon={faUmbrellaBeach} />
-                <span className="w-[120px] ml-auto">Chỉ số UV</span>
+                <span className="w-[120px]">Chỉ số UV</span>
               </h2>
               <h3 className="flex gap-x-1">
                 <span>0</span>

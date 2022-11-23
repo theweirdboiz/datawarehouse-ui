@@ -145,7 +145,7 @@ function App() {
           </div>
         </section>
         <section className="content__right text-white min-w-[320px]">
-          <div className="bg-backgroundPrimary p-5 h-full rounded-xl">
+          <div className="bg-backgroundSecondrary p-5 h-full rounded-xl">
             <div className="flex flex-col gap-x-12 justify-between mt-2 mb-5 ">
               <div className="flex flex-col">
                 <h3 className="flex items-baseline">

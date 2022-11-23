@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         transparent: "transparent",
         backgroundPrimary: "rgba(56, 171, 211, 0.8)",
+        backgroundSecondrary: "rgba(56, 171, 211, 0.9)",
         borderGray: "rgba(255, 255, 255, 0.02)",
       },
     },

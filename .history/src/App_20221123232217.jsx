@@ -145,8 +145,8 @@ function App() {
           </div>
         </section>
         <section className="content__right text-white min-w-[320px]">
-          <div className="bg-backgroundPrimary p-5 h-full rounded-xl">
-            <div className="flex flex-col gap-x-12 justify-between mt-2 mb-5 ">
+          <div className="bg-slate-600 p-5 h-full rounded-xl">
+            <div className="flex flex-col items-center gap-x-12 justify-between mt-2 mb-5 ">
               <div className="flex flex-col">
                 <h3 className="flex items-baseline">
                   <FontAwesomeIcon icon={faLocationDot} />
@@ -168,7 +168,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <h3 className="font-semibold mb-6">Mây cụm</h3>
+            <span>Mây cụm</span>
             <div className="mt-2 pb-2 flex justify-between items-center border-b-[1px] border-borderGray text-sm">
               <h2 className="flex items-center w-[150px]">
                 <FontAwesomeIcon className="" icon={faSun} />
