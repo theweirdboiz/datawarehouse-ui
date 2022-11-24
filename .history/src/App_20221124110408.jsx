@@ -35,7 +35,7 @@ function App() {
           <div className={contentTop}>
             <div className="flex-col">
               <h3 className={date}>January 2022</h3>
-              <div className={detailDate}>Thursday, 11:11 AM</div>
+              <div className={detailDate}>Thursday, Jan 4, 2022</div>
             </div>
             <Search></Search>
           </div>
