@@ -5,10 +5,11 @@ module.exports = {
     extend: {
       colors: {
         transparent: "transparent",
-        backgroundPrimary: "rgba(56, 171, 211, 0.8)",
+        primary: "#1a3251",
+        backgroundPrimary: "#1a3251",
+        linkColor: "rgb(20,66,144)",
         backgroundSecondary: "rgba(255, 255, 255, 0.02)",
-
-        borderPrimary: "rgba(255, 255, 255, 0.08)",
+        borderPrimary: "rgba(255, 255, 255, 0.2)",
         borderGray: "rgba(255, 255, 255, 0.02)",
       },
     },

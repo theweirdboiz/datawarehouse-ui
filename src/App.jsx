@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="p-5 mx-auto max-w-7xl bg-[#fff]">
       <div className="flex justify-between">
-        <section className="content max-w-3xl">
+        <section className="content max-w-3xl text-primary">
           <div className={contentTop}>
             <div className="flex-col">
               <h3 className={date}>January 2022</h3>
@@ -43,7 +43,7 @@ function App() {
             <div className="flex items-center justify-between">
               <h4 className="font-semibold">Today overview</h4>
               <div className="">
-                <button className="text-sm font-medium text-[#009EFF]">
+                <button className="text-sm font-medium text-linkColor">
                   More detail
                 </button>
               </div>
@@ -63,7 +63,7 @@ function App() {
             <div className="flex items-center justify-between">
               <h4 className="font-semibold">Weather 24h</h4>
               <div className="">
-                <button className="text-sm font-medium text-[#009EFF]">
+                <button className="text-sm font-medium text-linkColor">
                   24h
                 </button>
               </div>

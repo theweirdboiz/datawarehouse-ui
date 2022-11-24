@@ -14,7 +14,7 @@ import {
 
 const WidgetProp = ({ name, icon }) => {
   return (
-    <div className="mt-2 pb-2 flex justify-between items-center border-b-[1px] border-borderPrimary border-dashed text-sm">
+    <div className="mt-2 p-4 rounded-xl flex justify-between items-center border-[1px] border-borderPrimary text-sm bg-backgroundSecondary">
       <h2 className="flex items-center w-[150px]">
         <FontAwesomeIcon className="" icon={icon} />
         <span className="w-[120px] ml-auto">{name}</span>
