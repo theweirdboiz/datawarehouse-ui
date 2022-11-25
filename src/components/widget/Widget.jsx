@@ -15,7 +15,7 @@ import {
 import WidgetProp from "./WidgetProp";
 const Widget = () => {
   return (
-    <div className="bg-backgroundPrimary p-5 h-full rounded-xl">
+    <div className="bg-backgroundPrimary p-5 h-full rounded-xl shadow-2xl">
       <div className="flex flex-col gap-x-12 justify-between mt-2 mb-5 ">
         <div className="flex flex-col">
           <h3 className="flex items-baseline">
@@ -36,6 +36,8 @@ const Widget = () => {
         </div>
       </div>
       <h3 className="font-semibold mb-6">Mây cụm</h3>
+      <div className="w-full border-b-[1px] mb-6 border-borderPrimary"></div>
+      <h3 className="font-semibold">Dự báo thời tiết</h3>
       <WidgetProp
         name="Độ ẩm"
         icon={faTemperatureEmpty}

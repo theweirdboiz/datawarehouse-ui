@@ -1,21 +1,26 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import {
-  faLocationDot,
-  faSun,
-  faTemperatureEmpty,
-  faDroplet,
-  faEyeSlash,
-  faGlassWaterDroplet,
-  faWind,
-  faUmbrellaBeach,
-  faCaretDown,
-  faCaretUp,
-  faEye,
-} from "@fortawesome/free-solid-svg-icons";
+// import required modules
+import { Pagination, Navigation } from "swiper";
+
+// import {
+//   faLocationDot,
+//   faSun,
+//   faTemperatureEmpty,
+//   faDroplet,
+//   faEyeSlash,
+//   faGlassWaterDroplet,
+//   faWind,
+//   faUmbrellaBeach,
+//   faCaretDown,
+//   faCaretUp,
+//   faEye,
+// } from "@fortawesome/free-solid-svg-icons";
 
 import Search from "./components/Content/Search";
 import CardProp from "./components/Content/CardProp";
@@ -84,14 +89,7 @@ function App() {
                   </button>
                 </div>
               </div>
-              <Swiper
-                slidesPerView={4}
-                spaceBetween={30}
-                pagination={{
-                  clickable: true,
-                }}
-                className="mySwiper"
-              >
+              <Swiper slidesPerView={4} spaceBetween={30} speed={1200}>
                 <SwiperSlide>
                   <CardWidget time="Hiện tại"></CardWidget>
                 </SwiperSlide>
