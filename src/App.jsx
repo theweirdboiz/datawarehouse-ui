@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Swiper, SwiperSlide } from "swiper/react";
+import React, { lazy, Suspense } from "react";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -24,8 +26,6 @@ import { Pagination, Navigation } from "swiper";
 
 import Search from "./components/Content/Search";
 import CardProp from "./components/Content/CardProp";
-import CardWidget from "./components/Content/CardWidget";
-import Widget from "./components/widget/Widget";
 import { useEffect, useState } from "react";
 import Loader from "./components/Loader";
 
@@ -44,6 +44,8 @@ function App() {
 
   const contentTop = "flex items-center gap-x-10 mb-20";
 
+  const Widget = React.lazy(() => import("./components/widget/Widget"));
+  const CardWiget = React.lazy(() => import("./components/Content/CardWidget"));
   return (
     <>
       {load && <Loader />}
@@ -91,28 +93,47 @@ function App() {
               </div>
               <Swiper slidesPerView={4} spaceBetween={30} speed={1200}>
                 <SwiperSlide>
-                  <CardWidget time="Hiện tại"></CardWidget>
+                  <Suspense
+                    fallback={<p className="text-slate-800">Loading ...</p>}
+                  >
+                    <CardWiget></CardWiget>
+                  </Suspense>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <CardWidget time="12:30"></CardWidget>
+                  <Suspense
+                    fallback={<p className="text-slate-800">Loading ...</p>}
+                  >
+                    <CardWiget></CardWiget>
+                  </Suspense>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <CardWidget time="Hiện tại"></CardWidget>
+                  <Suspense
+                    fallback={<p className="text-slate-800">Loading ...</p>}
+                  >
+                    <CardWiget></CardWiget>
+                  </Suspense>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <CardWidget time="12:30"></CardWidget>
+                  <Suspense
+                    fallback={<p className="text-slate-800">Loading ...</p>}
+                  >
+                    <CardWiget></CardWiget>
+                  </Suspense>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <CardWidget time="Hiện tại"></CardWidget>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <CardWidget time="12:30"></CardWidget>
+                  <Suspense
+                    fallback={<p className="text-slate-800">Loading ...</p>}
+                  >
+                    <CardWiget></CardWiget>
+                  </Suspense>
                 </SwiperSlide>
               </Swiper>
             </div>
           </section>
           <section className="content__right text-white min-w-[320px]">
-            <Widget></Widget>
+            <Suspense fallback={<p className="text-slate-800">Loading ...</p>}>
+              <Widget></Widget>
+            </Suspense>
           </section>
         </div>
       </div>

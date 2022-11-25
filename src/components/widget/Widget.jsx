@@ -36,6 +36,10 @@ const Widget = () => {
         </div>
       </div>
       <h3 className="font-semibold mb-6">Mây cụm</h3>
+      <div className="mb-6 flex justify-between items-center">
+        <h3 className="font-semibold">Chất lượng không khí:</h3>
+        <h3 className=" bg-red-700 px-4 py-1 rounded-lg">Kém</h3>
+      </div>
       <div className="w-full border-b-[1px] mb-6 border-borderPrimary"></div>
       <h3 className="font-semibold">Dự báo thời tiết</h3>
       <WidgetProp
